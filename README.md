@@ -81,7 +81,7 @@ formik-yup-react-form/
 
 - `Email`: Must be in a valid email format and is required.
 
-- `Password`: Must be exactly rishiME@199 and is required.
+- `Password`: Must be exactly mahiME@201 and is required.
 
 - `Confirm Password`: Must match the password field and is required.
 

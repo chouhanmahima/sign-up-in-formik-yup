@@ -15,7 +15,7 @@ function App() {
     validationSchema : yup.object({
       name : yup.string()
         .min(3, "Must be at least 3 Characters !")
-        .required("Name is Required !"),
+        .required("Please enter your name !"),
 
       email : yup.string()
         .email("Invalid Email Address !")
@@ -23,7 +23,7 @@ function App() {
 
       password : yup.string()
         .oneOf(["mahiME@201"], "Incorrect Password !")
-        .required("Password is Required !"),
+        .required("Password must be exactly mahiME@201 is required."),
 
       confirmPassword : yup.string()
         .oneOf(["mahiME@201"], "Confirm Password is Incorrect !")
